@@ -1,0 +1,2 @@
+# JANDI
+🌱 Python study
