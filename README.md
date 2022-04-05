@@ -61,7 +61,7 @@
    $ git commit -m "lahyoeun: 백준_0000번문제 풀이"
    
    10. 본인이 Fork한 깃헙 저장소에 업로드 (ex: git push <Remote> <Branch>)
-   $ git push origin 자신의 영문이름 폴더(ex: lahyoeun)
+   $ git push origin main
    
    11. 본인이 Fork한 깃헙 저장소로 이동하여 Pull Request(PR)를 보낸다.
     ❗ 이때, 스터디장 저장소의 main 브랜치가 아닌 "복사한 레포지토리"로 보내야함
