@@ -1,11 +1,11 @@
 # 031 문자열 합치기
 a = "3"
 b = "4"
-print(a+b) # 34
+print(a+b)  # 34
 # -> "34"라는 새로운 문자열이 생기고 그 값이 print함수에 의해 출력됨
 
 # 032 문자열 곱하기
-print("Hi"*3) # HiHiHi
+print("Hi"*3)  # HiHiHi
 # -> 문자열에 대한 곱셈은 문자열의 반복을 의미한다
 
 # 033 문자열 곱하기
@@ -22,8 +22,8 @@ name1 = "김민수"
 age1 = 10
 name2 = "이철희"
 age2 = 13
-print("이름: %s 나이: %d" %(name1, age1))
-print("이름: %s 나이: %d" %(name2, age2))
+print("이름: %s 나이: %d" % (name1, age1))
+print("이름: %s 나이: %d" % (name2, age2))
 # C style처럼 사용 가능
 
 # 036 문자열 출력
@@ -45,9 +45,9 @@ print("이름: {name1} 나이: {age2}")
 # formatting 스타일과 유사, {}에 변수를 직접 입력
 
 # 038 컴마 제거하기
-number ="5,969,782,550"
-comma = number.replace(",","")
-print(int(comma),type(int(comma)))
+number = "5,969,782,550"
+comma = number.replace(",", "")
+print(int(comma), type(int(comma)))
 # replace(old, new, [count]) : 문자열 안의 특정 문자를 새로운 문자로 변경하는 기능을 가짐
 # old : 변경하고 싶은 문자
 # new : 새로 바꿀 문자
