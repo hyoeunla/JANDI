@@ -1,5 +1,5 @@
 # 001 print 기초
-# 화면에 Hello World 문자열을 출력하세요
+# 화면에 Hello World 문자열을 출력하세요.
 print('Hello World')
 
 # 002 print 기초
@@ -29,15 +29,16 @@ print("C:\\Windows")
 
 # 007 print 기초
 # print() 함수를 사용하여 다음과 같이 출력하세요.
-print("naver","kakao","sk","samsung", sep=";")
+print("naver", "kakao", "sk", "samsung", sep=";")
 
 # 008 print 기초
 # print() 함수를 사용하여 다음과 같이 출력하세요.
-print("naver","kakao","sk","samsung", sep="/")
+print("naver", "kakao", "sk", "samsung", sep="/")
 
 # 009 print 줄바꿈
 # 다음 코드를 수정하여 줄바꿈이 없이 출력하세요. (힌트: end='') print 함수는 두 번 사용합니다. 세미콜론 (;)은 한줄에 여러 개의 명령을 작성하기 위해 사용합니다.
-print("first" end=""); print("second")
+print("first" end="")
+print("second")
 
 # 010 연산 결과 출력
 # 5/3의 결과를 화면에 출력하세요.
