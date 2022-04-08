@@ -21,21 +21,21 @@ print(string[::-1])
 # 025 문자열 치환
 # 아래의 전화번호에서 하이푼 ('-')을 제거하고 출력하세요.
 phone_number = "010-1111-2222"
-print(phone_number.replace("-"," "))
+print(phone_number.replace("-", " "))
 
 # 026 문자열 다루기
 # 25번 문제의 전화번호를 아래와 같이 모두 붙여 출력하세요.
 phone_number = "010-1111-2222"
-print(phone_number.replace("-",""))
+print(phone_number.replace("-", ""))
 
 # 027 문자열 다루기
 # url 에 저장된 웹 페이지 주소에서 도메인을 출력하세요.
 url = "http://sharebook.kr"
-print(url[-2:]) #나의 풀이방법
+print(url[-2:])  # 나의 풀이방법
 
 url = "http://sharebook.kr"
 url_split = url.split('.')
-print(url_split[1]) #의도한 풀이방법
+print(url_split[1])  # 의도한 풀이방법
 
 # 028 문자열은 immutable
 # 아래 코드의 실행 결과를 예상해보세요.
@@ -49,7 +49,7 @@ print(url_split[1]) #의도한 풀이방법
 # 029 replace 메서드
 # 아래 문자열에서 소문자 'a'를 대문자 'A'로 변경하세요.
 string = 'abcdfe2a354a32a'
-print(string.replace("a","A"))
+print(string.replace("a", "A"))
 
 # 030 replace 메서드
 # 아래 코드의 실행 결과를 예상해보세요.
