@@ -23,7 +23,7 @@ hello! python
 
 s = "hello"
 t = "python"
-print(s,"!", t)
+print(s, "!", t)
 
 # 014 파이썬을 이용한 값 계산
 # 아래 코드의 실행 결과를 예상해보세요.
@@ -33,8 +33,8 @@ print(s,"!", t)
 # 015 type 함수
 # type() 함수는 데이터 타입을 판별합니다. 변수 a에는 128 숫자가 바인딩돼 있어 type함수가 int (정수)형임을 알려줍니다.
 >> a = 128
->> print (type(a))
-<class 'int'>
+>> print(type(a))
+<class 'int' >
 # 아래 변수에 바인딩된 값의 타입을 판별해보세요.
 >> a = "132"
 
@@ -45,31 +45,31 @@ print(type(a))
 # 문자열 '720'를 정수형으로 변환해보세요.
 >> unm_str = "720"
 
-num_str = "720" #형변환
+num_str = "720"  # 형변환
 num_inr = int(num_int))
 print(num_int+1, type(num_int))
 
 # 017 정수를 문자열 100으로 변
 # 정수 100을 문자열 '100'으로 변환해보세요.
-unm = 100
-result = str(num)
+unm=100
+result=str(num)
 print(result, type(result))
 
 # 018 문자열을 실수로 변환
 # 문자열 "15.79"를 실수(float) 타입으로 변환해보세요.
-data = "15.79"
-data = float(data)
+data="15.79"
+data=float(data)
 print(data, type(data))
 
 # 019 문자열을 정수로 변환
 # year라는 변수가 문자열 타입의 연도를 바인딩하고 있습니다. 이를 정수로 변환한 후 최근 3년의 연도를 화면에 출력해보세요.
-year = "2020"
-print(int(year)-3) # 2017
-print(int(year)-2) # 2018
-print(int(year)-1) # 2019
+year="2020"
+print(int(year)-3)  # 2017
+print(int(year)-2)  # 2018
+print(int(year)-1)  # 2019
 
 # 020 파이썬 계산
 # 에어컨이 월 48,584원에 무이자 36개월의 조건으로 홈쇼핑에 판매하고 있습니다. 총 금액은 계산한 후 이를 화면에 출력해보세요.(변수사용하기)
-월 = 48584
-총금액 = 월 * 36
+월=48584
+총금액=월 * 36
 print(총금액)
