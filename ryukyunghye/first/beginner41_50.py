@@ -21,17 +21,17 @@ print(b)
 
 # 044 endswith 메서드
 file_name = "보고서.xlsx"
-print(file_name.endswith("xlsx")) #true
+print(file_name.endswith("xlsx"))  # true
 # endswith() : 특정 문자로 끝나는지 확인(True/False)
 
 # 045 endswith 메서드
 file_name = "보고서.xlsx"
-print(file_name.endswith(("xlsx", "xls"))) # true
+print(file_name.endswith(("xlsx", "xls")))  # true
 # 두가지인 경우 ()를 2번 쓰는 이유는 아직 잘 모르겠다
 
 # 046 startswith 메서드
 file_name = "2020_보고서.xlsx"
-print(file_name.startswith("2020")) # true
+print(file_name.startswith("2020"))  # true
 # startswith() : 특정 문자로 시작하는지 확인(True/False)
 
 # 047 split 메서드
