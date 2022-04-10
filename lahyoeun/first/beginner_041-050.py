@@ -4,9 +4,6 @@
 
 ticker = "btc_krw"
 '''
-from winreg import HKEY_LOCAL_MACHINE
-
-
 ticker = "btc_krw"
 ticker1 = ticker.upper()
 print(ticker1)
@@ -104,3 +101,7 @@ data = "039490     "
 '''
 data = "039490     "
 data = data.rstrip()
+
+'''
+수정했어요
+'''
