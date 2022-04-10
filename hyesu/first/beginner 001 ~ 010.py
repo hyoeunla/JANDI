@@ -9,7 +9,7 @@ print("Marry's cosmetics")
 
 # 003 print 기초
 # 화면에 아래 문장을 출력하새요. (중간에 "가 있음을 주의하세요.)
-print('신씨가 소리질렀다. "도둑이야"')
+ㅊ
 
 # 004 print 기초
 # 화면에 "C:\windows"를 출력하세요.
