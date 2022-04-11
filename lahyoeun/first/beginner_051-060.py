@@ -8,9 +8,6 @@
 2	스플릿
 3	럭키
 '''
-from audioop import avg
-
-
 movie_rank = ['닥터 스트레인지', '스플릿', '럭키']
 
 
@@ -124,3 +121,5 @@ sum1 = sum(nums)
 len1 = len(nums)
 avg = sum1/len1
 print(avg)
+
+# 수정했어요
