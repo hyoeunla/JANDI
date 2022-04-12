@@ -4,7 +4,7 @@
 
 다른 방법: ticker = "btc_krw";ticker1 = ticker.upper();print(ticker1)
 
-차이점: 내 방식은 replace로 기존에 있던걸 삭제하고 치환하는 방법이고, 다른 방법은 upper() 메서드를 호출해서 소문자를 대문자로 치환해주는 것이다.''''
+차이점: 내 방식은 replace로 기존에 있던걸 삭제하고 치환하는 방법이고, 다른 방법은 upper() 메서드를 호출해서 소문자를 대문자로 치환해주는 것이다.'''
 
 '''42번: ticker = "BTC_KRW"를 소문자 btc_krw로 변경하세요.'''
 ticker = "BTC_KRW"; t1=ticker.lower();print(t1)
