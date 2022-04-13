@@ -58,7 +58,7 @@ interest = ['삼성전자', 'LG전자', 'Naver', 'SK하이닉스', '미래에셋
 interest 리스트를 사용하여 아래와 같이 화면에 출력하라.
 '''
 interest = ['삼성전자', 'LG전자', 'Naver', 'SK하이닉스', '미래에셋대우']
-print('/'.join(interest)
+print('/'.join(interest))
 
 '''
 068 join 메서드
@@ -66,8 +66,8 @@ interest 리스트에는 아래의 데이터가 바인딩되어 있다.
 interest = ['삼성전자', 'LG전자', 'Naver', 'SK하이닉스', '미래에셋대우']
 join() 메서드를 사용해서 interest 리스트를 아래와 같이 화면에 출력하라.
 '''
-interest=['삼성전자', 'LG전자', 'Naver', 'SK하이닉스', '미래에셋대우']
-result='\n'.join(interest)
+interest = ['삼성전자', 'LG전자', 'Naver', 'SK하이닉스', '미래에셋대우']
+result = '\n'.join(interest)
 print(result)
 
 '''
@@ -76,8 +76,8 @@ print(result)
 string = "삼성전자/LG전자/Naver"
 이를 interest 이름의 리스트로 분리 저장하라.
 '''
-string="삼성전자/LG전자/Naver"
-result=string.split("/")
+string = "삼성전자/LG전자/Naver"
+result = string.split("/")
 print(result)
 
 '''
@@ -85,6 +85,6 @@ print(result)
 리스트에 있는 값을 오름차순으로 정렬하세요.
 data = [2, 4, 3, 1, 5, 10, 9]
 '''
-data=[2, 4, 3, 1, 5, 10, 9]
+data = [2, 4, 3, 1, 5, 10, 9]
 data.sort()
 print(data)
