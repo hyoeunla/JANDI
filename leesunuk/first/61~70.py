@@ -23,7 +23,7 @@ print(interest[0], interest[2])
 interest = ['삼성전자', 'LG전자', 'Naver', 'SK하이닉스', '미래에셋대우']
 print(" ".join(interest))
 
-'''67번: 위 interest 리스트를 사용하여 삼성전자/LG전자/Naver/SK하이닉스/미래에셋대우 를 출력하라'''
+'''67번: 위 interest 리스트를 사용하여 삼성전자/LG전자/Naver/SK하이닉스/미래에셋대우 4개를 출력하라'''
 interest = ['삼성전자', 'LG전자', 'Naver', 'SK하이닉스', '미래에셋대우']
 print("/".join(interest))
 
