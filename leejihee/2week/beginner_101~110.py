@@ -40,7 +40,7 @@ if 4 < 3:
     print("Hello World.")
 else:
     print("Hi, there.")
-# 정답: HI, there.
+# 정답: Hi, there.
 
 # 109
 # 아래 코드의 출력 결과를 예상하라
