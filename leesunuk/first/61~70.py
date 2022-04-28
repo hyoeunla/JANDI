@@ -19,7 +19,7 @@ interest = ['삼성전자', 'LG전자', 'Naver']
 print(interest[0], interest[2])
 
 '''66번: interest 리스트에는 interest = ['삼성전자', 'LG전자', 'Naver', 'SK하이닉스', '미래에셋대우']가 바인딩되어 있다.
-삼성전자 LG전자 Naver SK하이닉스 미래에셋대우 4개만 출력하라 '''
+삼성전자 LG전자 Naver SK하이닉스 미래에셋대우 를 출력하라 '''
 interest = ['삼성전자', 'LG전자', 'Naver', 'SK하이닉스', '미래에셋대우']
 print(" ".join(interest))
 
