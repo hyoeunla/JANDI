@@ -5,10 +5,8 @@
 - 참여자
   - [스터디장] 라효은 <[hyoeunla](https://github.com/hyoeunla)>
   - 강혜수<[hyesu0203](https://github.com/hyesu0203)>
-  - 김민관<[mingwan3](https://github.com/mingwan3)>
   - 류경혜<[ryukyung](https://github.com/ryukyung)>
   - 이선욱<[leesunuk](https://github.com/leesunuk)>
-  - 이우성<[usung1298](https://github.com/usung1298)>
   - 이지희<[ji1210h](https://github.com/ji1210h)>
  
 ## ❓ 무엇을 하는가?
