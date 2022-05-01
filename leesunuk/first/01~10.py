@@ -5,7 +5,7 @@ print("Hello World")
 print("Mary's cosmetics")
 
 ''' 3번: 신씨가 소리질렀다. "도둑이야".를 출력하세요 (" 주의) '''
-print('신씨가 소리질렀다. "도둑이야"')
+print('신씨가 소리질렀다. "도둑이야".')
 
 '''4번: 화면에 "C:\windows" 출력하세요'''
 print('"C:\windows"')
