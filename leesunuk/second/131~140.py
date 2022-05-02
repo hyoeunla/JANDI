@@ -98,6 +98,13 @@ for i in range(0, 3):
 '''
 138번: 다음 코드를 for문으로 작성하라.
 '''
+print(10)
+print("-------")
+print(20)
+print("-------")
+print(30)
+print("-------")
+
 for i in ["10", "20", "30"]:
     print(i)
     print("-------")
