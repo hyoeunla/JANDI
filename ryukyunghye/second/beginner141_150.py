@@ -21,7 +21,6 @@ aList = ['dog', 'cat', 'parrot']
 for i in aList:
     print(i, len(i))
 
-
 # 145. 리스트에는 동물 이름이 문자열로 저장돼 있다. for문을 사용해서 동물 이름의 첫 글자만 출력하라.
 aList = ['dog', 'cat', 'parrot']
 for i in aList:
@@ -45,7 +44,6 @@ for i in aList:
 
 # 148. 리스트에는 네 개의 문자열이 바인딩돼 있다. for문을 사용해서 다음과 같이 출력하라.
 aList = ["가", "나", "다", "라"]
-# 방법1
 for i in aList[1:]:
     print(i)
 
