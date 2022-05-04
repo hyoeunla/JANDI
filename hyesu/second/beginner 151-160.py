@@ -9,9 +9,9 @@ for문을 사용해서 리스트의 음수를 출력하라.
 -3
 '''
 list = [3, -20, -3, 44]
- for i in list:
-     if i < 0:
-print(i)
+for i in list:
+    if i < 0:
+        print(i)
 
 '''
 152
@@ -22,8 +22,8 @@ for문을 사용해서 3의 배수만을 출력하라.
 '''
 list = [3, 100, 23, 44]
 for i in list:
-  if i % 3 == 0:
-    print(i)
+    if i % 3 == 0:
+        print(i)
 
 '''
 153
@@ -35,8 +35,8 @@ for i in list:
 '''
 list = [13, 21, 12, 14, 30, 18]
 for i in list:
-  if (i < 20) and (i % 3 == 0):
-    print(i)
+    if (i < 20) and (i % 3 == 0):
+        print(i)
 
 '''
 154
@@ -49,8 +49,8 @@ language
 '''
 list = ["I", "study", "python", "language", "!"]
 for i in list:
-  if len(i) >= 3:
-    print(i)
+    if len(i) >= 3:
+        print(i)
 
 '''
 155
@@ -63,8 +63,8 @@ D
 '''
 list = ["A", "b", "c", "D"]
 for i in list:
-  if i.isupper():
-    print(i)
+    if i.isupper():
+        print(i)
 
 '''
 156
@@ -76,8 +76,8 @@ c
 '''
 list = ["A", "b", "c", "D"]
 for i in list:
-  if i.isupper() != True:
-    print(i)
+    if i.isupper() != True:
+        print(i)
 
 '''
 157
@@ -91,7 +91,7 @@ Parrot
 '''
 list = ['dog', 'cat', 'parrot']
 for i in list:
-  print(i[0].upper() + i[1:])
+    print(i[0].upper() + i[1:])
 
 '''
 58
@@ -104,8 +104,8 @@ intro
 '''
 list = ['hello.py', 'ex01.py', 'intro.hwp']
 for i in list:
-  split = i.split(".")
-  print(split[0])
+    split = i.split(".")
+    print(split[0])
 
 '''
 159
@@ -117,9 +117,9 @@ define.h
 '''
 list = ['intra.h', 'intra.c', 'define.h', 'run.py']
 for i in list:
-  split = i.split(".")
-  if split[1] == "h":
-    print(i)
+    split = i.split(".")
+    if split[1] == "h":
+        print(i)
 
 '''
 160
@@ -132,11 +132,6 @@ define.h
 '''
 list = ['intra.h', 'intra.c', 'define.h', 'run.py']
 for i in list:
-  split = i.split(".")
-  if (split[1] == "h") or (split[1] == "c"):
-    print(i)
-
-
-
-
-
+    split = i.split(".")
+    if (split[1] == "h") or (split[1] == "c"):
+        print(i)
