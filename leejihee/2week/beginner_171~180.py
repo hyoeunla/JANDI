@@ -38,7 +38,7 @@ price_list = [32100, 32150, 32000, 32500]
 '''
 price_list = [32100, 32150, 32000, 32500]
 for i in range(4):
-    print(i, price_list[i])
+    print(3-i, price_list[i])
 
 '''
 174
@@ -90,8 +90,8 @@ my_list = ["가", "나", "다", "라"]
 나 가
 '''
 my_list = ["가", "나", "다", "라"]
-for i in [2, 1, 0]:
-    print(my_list[i+1], my_list[i])
+for i in range(3, 0, -1):
+    print(my_list[i], my_list[i-1])
 
 '''
 178
