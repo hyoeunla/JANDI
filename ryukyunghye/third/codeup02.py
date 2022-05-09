@@ -65,20 +65,20 @@ print(num[0])
 print(num[1])
 
 print('''\
-    {}
-    {}
-    '''.format(num[0], num[1]))
+{}
+{}
+'''.format(num[0], num[1]))
 
 # [24] 단어를 1개 입력받는다. 입력받은 단어(영어)의 각 문자를 한줄에 한 문자씩 분리해 출력한다.(단, 단어의 문자(여엉)를 하나씩 나누어 한 줄에 한 개씩 ''로 묶어서 출력한다.)
 char = input()
-for i in len(char):
+for i in range(len(char)):
     print(char[i])
 
 # [25] 다섯 자리의 정수 1개를 입력받아 각 자리별로 나누어 출력한다.
 num = input()
 a = len(num)-1
 for i in len(num):
-    print(num[i] + 'o'*a)
+    print(num[i] + '0'*a)
     a -= 1
 
 # [26] 입력되는 시:분:초에서 분만 출력해보자.
