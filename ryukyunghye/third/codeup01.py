@@ -1,6 +1,4 @@
 # 1. 기초 - 출력
-print('Hello')
-print("Hello")
 
 # [1] Hello 출력하기
 print('Hello')
