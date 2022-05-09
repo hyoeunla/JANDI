@@ -8,8 +8,8 @@
 210
 310
 '''
-리스트 = [100, 200, 300]
-for i in 리스트:
+list = [100, 200, 300]
+for i in list:
     print(i+10)
 
 '''
@@ -21,8 +21,8 @@ for 문을 사용해서 리스트에 저장된 값을 다음과 같이 출력하
 오늘의 메뉴: 라면
 오늘의 메뉴: 튀김 
 '''
-리스트 = ["김밥", "라면", "튀김"]
-for i in 리스트:
+list = ["김밥", "라면", "튀김"]
+for i in list:
     print("오늘의 메뉴:", i)
 
 '''
@@ -36,8 +36,8 @@ for i in 리스트:
 4
 4
 '''
-리스트 = ["SK하이닉스", "삼성전자", "LG전자"]
-for i in 리스트:
+list = ["SK하이닉스", "삼성전자", "LG전자"]
+for i in list:
     print(len(i))
 
 '''
@@ -51,8 +51,8 @@ dog 3
 cat 3
 parrot 6
 '''
-리스트 = ['dog', 'cat', 'parrot']
-for i in 리스트:
+list = ['dog', 'cat', 'parrot']
+for i in list:
     print(i, len(i))
 
 '''
@@ -66,8 +66,8 @@ d
 c
 p
 '''
-리스트 = ['dog', 'cat', 'parrot']
-for i in 리스트:
+list = ['dog', 'cat', 'parrot']
+for i in list:
     print(i[0])
 
 
@@ -82,8 +82,8 @@ for문을 사용해서 다음과 같이 출력하라.
 3 x 2
 3 x 3
 '''
-리스트 = [1, 2, 3]
-for i in 리스트:
+list = [1, 2, 3]
+for i in list:
     print("3 *", i)
 
 
@@ -98,8 +98,8 @@ for문을 사용해서 다음과 같이 출력하라.
 3 x 2 = 6
 3 x 3 = 9
 '''
-리스트 = [1, 2, 3]
-for i in 리스트:
+list = [1, 2, 3]
+for i in list:
     print("3 *", i, "=", 3*i)
 
 '''
@@ -113,8 +113,8 @@ for문을 사용해서 다음과 같이 출력하라.
 다
 라
 '''
-리스트 = ["가", "나", "다", "라"]
-for i in 리스트[1:4]:
+list = ["가", "나", "다", "라"]
+for i in list[1:4]:
     print(i)
 
 '''
@@ -127,8 +127,8 @@ for문을 사용해서 다음과 같이 출력하라.
 가
 다
 '''
-리스트 = ["가", "나", "다", "라"]
-for i in 리스트[::2]:
+list = ["가", "나", "다", "라"]
+for i in list[::2]:
     print(i)
 
 '''
@@ -143,6 +143,6 @@ for문을 사용해서 다음과 같이 출력하라.
 나
 가
 '''
-리스트 = ["가", "나", "다", "라"]
-for i in 리스트[::-1]:
+list = ["가", "나", "다", "라"]
+for i in list[::-1]:
     print(i)

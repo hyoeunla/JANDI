@@ -8,8 +8,8 @@ for문을 사용해서 리스트의 음수를 출력하라.
 -20
 -3
 '''
-리스트 = [3, -20, -3, 44]
-for i in 리스트:
+list = [3, -20, -3, 44]
+for i in list:
     if(i < 0):
         print(i)
 
@@ -20,8 +20,8 @@ for문을 사용해서 3의 배수만을 출력하라.
 리스트 = [3, 100, 23, 44]
 3
 '''
-리스트 = [3, 100, 23, 44]
-for i in 리스트:
+list = [3, 100, 23, 44]
+for i in list:
     if(i % 3 == 0):
         print(i)
 
@@ -33,8 +33,8 @@ for i in 리스트:
 12
 18
 '''
-리스트 = [13, 21, 12, 14, 30, 18]
-for i in 리스트:
+list = [13, 21, 12, 14, 30, 18]
+for i in list:
     if (i < 20 and i % 3 == 0):
         print(i)
 
@@ -47,8 +47,8 @@ study
 python
 language
 '''
-리스트 = ["I", "study", "python", "language", "!"]
-for i in 리스트:
+list = ["I", "study", "python", "language", "!"]
+for i in list:
     if (len(i) >= 3):
         print(i)
 
@@ -61,8 +61,8 @@ A
 D
 (참고) isupper() 메서드는 대문자 여부를 판별합니다.
 '''
-리스트 = ["A", "b", "c", "D"]
-for i in 리스트:
+list = ["A", "b", "c", "D"]
+for i in list:
     if (i.isupper() == True):
         print(i)
 
@@ -74,8 +74,8 @@ for i in 리스트:
 b
 c
 '''
-리스트 = ["A", "b", "c", "D"]
-for i in 리스트:
+list = ["A", "b", "c", "D"]
+for i in list:
     if (i.isupper() == False):
         print(i)
 
@@ -89,8 +89,8 @@ Cat
 Parrot
 (참고) upper() 메서드는 문자열을 대문자로 변경합니다.
 '''
-리스트 = ['dog', 'cat', 'parrot']
-for i in 리스트:
+list = ['dog', 'cat', 'parrot']
+for i in list:
     print(i[0].upper()+i[1:])
 
 '''
@@ -102,8 +102,8 @@ hello
 ex01
 intro
 '''
-리스트 = ['hello.py', 'ex01.py', 'intro.hwp']
-for i in 리스트:
+list = ['hello.py', 'ex01.py', 'intro.hwp']
+for i in list:
     name = i.split('.')
     print(name[0])
 
@@ -115,8 +115,8 @@ for i in 리스트:
 intra.h
 define.h
 '''
-리스트 = ['intra.h', 'intra.c', 'define.h', 'run.py']
-for i in 리스트:
+list = ['intra.h', 'intra.c', 'define.h', 'run.py']
+for i in list:
     name = i.split('.')
     if(name[1] == 'h'):
         print(i)
@@ -130,8 +130,8 @@ intra.h
 intra.c
 define.h
 '''
-리스트 = ['intra.h', 'intra.c', 'define.h', 'run.py']
-for i in 리스트:
+list = ['intra.h', 'intra.c', 'define.h', 'run.py']
+for i in list:
     name = i.split('.')
     if (name[1] == 'h' or name[1] == 'c'):
         print(i)
