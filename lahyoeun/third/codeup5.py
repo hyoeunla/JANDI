@@ -35,7 +35,7 @@ print(chr(askii+1))  # 헷갈리므로 다시 풀어볼 것
 [42]
 정수 2개(a, b) 를 입력받아 a를 b로 나눈 몫을 출력해보자.
 '''
-a, b = int(input().split())
+a, b = map(int, input().split())
 print(a//b)
 
 
@@ -43,7 +43,7 @@ print(a//b)
 [43]
 정수 2개(a, b) 를 입력받아 a를 b로 나눈 나머지를 출력해보자.
 '''
-a, b = int(input().split())
+a, b = map(int, input().split())
 print(a % b)
 
 
@@ -66,7 +66,7 @@ print(a+1)
 여섯째 줄에 나눈 값을 순서대로 출력한다.
 (실수, 소수점 이하 셋째 자리에서 반올림해 둘째 자리까지 출력)
 '''
-a, b = int(input().split())
+a, b = map(int, input().split())
 print(a+b)
 print(a-b)
 print(a*b)
