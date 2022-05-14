@@ -83,7 +83,7 @@ print(var, var, var)
 입력 : 3:15
 출력 : 3:15
 '''
-h, m = nput().split(':')
+h, m = input().split(':')
 print('{}:{}'.format(h, m))
 
 '''
