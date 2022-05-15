@@ -15,7 +15,7 @@
 num = int(input())
 a = 0
 for i in range(2, num+1, 2):
-  a += i
+    a += i
 print(a)
 
 '''
@@ -39,10 +39,10 @@ q
 '''
 word = input().split()
 for i in word:
-  if i == 'q':
-  break
-  print(i)
-  
+    if i == 'q':
+        break
+    print(i)
+
 
 '''
 [80] 언제까지 더해야 할까?
@@ -55,9 +55,9 @@ num = int(input())
 total = 0
 i = 0
 while total < num:
-  i += 1
-  total += i
-print( i )
+    i += 1
+    total += i
+print(i)
 
 '''
 [81] 주사위를 2개 던지면?
@@ -83,9 +83,9 @@ print( i )
 n, m = map(int, input().split())
 
 for n in range(1, n+1):
-  for m in range(1, m+1):
-    print(n, m)
-    
+    for m in range(1, m+1):
+        print(n, m)
+
 '''
 [82] 16진수 구구단
 
@@ -97,7 +97,8 @@ A, B, C, D, E, F 중 하나가 입력될 때, 1부터 F까지 곱한 16진수 �
 char = input()
 
 for i in range(1, 16):
-  print( '%s*%s=%s' %(char, hex(i)[2:].upper(), hex(int(char, 16) * i)[2:].upper()) )
+    print('%s*%s=%s' %
+          (char, hex(i)[2:].upper(), hex(int(char, 16) * i)[2:].upper()))
 
 '''
 [83] 3 6 9 게임의 왕이 되자
@@ -112,8 +113,8 @@ for i in range(1, 16):
 '''
 num = int(input())
 for i in range(1, num+1):
-  count = i if i%3 else 'X'
-  print(count, end=' ')
+    count = i if i % 3 else 'X'
+    print(count, end=' ')
 
 
 '''
@@ -130,10 +131,10 @@ r, g, b = map(int, input().split())
 
 count = 0
 for i in range(r):
-  for j in range(g):
-    for k in range(b):
-      print(i, j, k)
-      count += 1
+    for j in range(g):
+        for k in range(b):
+            print(i, j, k)
+            count += 1
 print(count)
 
 
@@ -149,6 +150,7 @@ print(count)
 값을 저장할 때에는 비트를 사용하는 정도에 따라 세세한 녹음 정도를 결정할 수 있고,
 좌우(스테레오) 채널로 저장하면 2배… 5.1채널이면 6배의 저장공간이 필요하고,
 녹음 시간이 길면 그 만큼 더 많은 저장공간이 필요하다.
+
 1초 동안 마이크로 소리강약을 체크하는 수를 h (헤르쯔, Hz 는 1초에 몇 번? 체크하는가를 의미한다.)
 
 한 번 체크한 결과를 저장하는 비트 b (2비트를 사용하면 0 또는 1 두 가지, 16비트를 사용하면 65536가지..)
@@ -157,7 +159,7 @@ print(count)
 
 녹음할 시간 s가 주어질 때, 필요한 저장 용량을 계산하는 프로그램을 작성해보자.
 
-**문제의 핵심 포인트**
+`**문제의 핵심 포인트**
 실제로 일반적인 CD 음질(44.1KHz, 16bit, 스테레오)로 1초 동안 저장하려면
 44100 * 16 * 2 * 1 bit의 저장공간이 필요
 이렇게 녹음하는 방식을 PCM(Pulse Code Modulation) 방법이라고 하는데, 압축하지 않은 순수한(raw) 소리 데이터 파일은 대표적으로 *.wav 가 있다.
@@ -201,7 +203,7 @@ print(round(result, 1), 'MB')
 '''
 w, h, b = map(int, input().split())
 result = (w*h*b) / (8 * 1024**2)
-print( round(result, 2), 'MB' )
+print(round(result, 2), 'MB')
 
 
 '''
@@ -234,10 +236,10 @@ print(sum)
 num = int(input())
 
 for i in range(1, num+1):
-  if i%3:
-    print(i, end=' ')
+    if i % 3:
+        print(i, end=' ')
 
-    
+
 '''
 [89] 수 나열하기1
 
@@ -254,14 +256,14 @@ for i in range(1, num+1):
 
 시작 값(a), 등차(d), 몇 번째인지를 나타내는 정수(n)가 입력될 때 n번째 수를 출력하는 프로그램을 만들어보자.
 '''
-a,d,n = input().split()
+a, d, n = input().split()
 
 a = int(a)
 d = int(d)
 n = int(n)
 s = a
 for i in range(2, n+1):
-   s += d
+    s += d
 print(s)
 
 
@@ -288,10 +290,10 @@ i = a
 count = 0
 geom = []
 while count < n:
-  geom.append(i)
-  i *= r
-  count += 1
-print( geom[-1] )
+    geom.append(i)
+    i *= r
+    count += 1
+print(geom[-1])
 
 
 '''
@@ -316,9 +318,9 @@ a, m, d, n = map(int, input().split())
 i = a
 prog = []
 while len(prog) < n:
-  prog.append(i)
-  i = i*m+d
-print( prog[-1] )
+    prog.append(i)
+    i = i*m+d
+print(prog[-1])
 
 '''
 [92] 함께 문제 푸는 날
@@ -330,6 +332,7 @@ print( prog[-1] )
 a, b, c = map(int, input().split())
 day = 1
 while 1:
-  day += 1
-  if day%a == 0 and day%b == 0 and day%c == 0: break
-print( day )
+    day += 1
+    if day % a == 0 and day % b == 0 and day % c == 0:
+        break
+print(day)
