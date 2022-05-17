@@ -62,6 +62,7 @@ print(*b)
 
 2
 '''
+
 a = (int(input("출석을 몇번 부를 건지 입력해주세요: ")))
 b = list(map(int, input("출석 번호 몇번을 부를 건지 입력해주세요: ").split()))
 c = min(b)
