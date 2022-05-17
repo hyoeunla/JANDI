@@ -17,7 +17,7 @@
 '''
 att = [0 for i in range(23)]  # 23칸을 0으로 채워 생성한다는 뜻
 num = int(input())
-student_num = (map(int, input().split()))
-for i in student_num:  # student_num에 입력된 번호를 출력하는 것 (1 3 2 2 ...)
+student = map(int, input().split())
+for i in student:  # student_num에 입력된 번호를 출력하는 것 (1 3 2 2 ...)
     att[i] += 1  # att[1]에 +1, att[3]에 +1 ...
 print(*att)  # asterisk를 붙이면 리스트 형태가 아닌, 내부 원소를 그대로 출력
