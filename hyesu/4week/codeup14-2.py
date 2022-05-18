@@ -15,6 +15,6 @@
 '''
 num = int(input())
 
-call = list(map(int, input().split()))
-call.reverse()  # 리스트의 메소드, call를 뒤집어 준다.
-print(call)
+rand = list(map(int, input().split()))
+rand.reverse()  # 리스트의 메소드, rand를 뒤집어 준다.
+print(*rand)
