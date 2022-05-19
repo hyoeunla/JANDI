@@ -1,4 +1,4 @@
-#-*- coding: utf-8 -*- 
+# -*- coding: utf-8 -*-
 '''
 [우리밋의 LAST 보너스 문제] 내 미래
 훈련병인 철수는 교관의 지시에 따라야한다.
@@ -25,14 +25,14 @@
 0 0 0 0 0
 0 0 0 1 0
 '''
-lotation=[[0 for _ in range(5)] for _ in range(5)]
+lotation = [[0 for _ in range(5)] for _ in range(5)]
 a, b = map(int, input().split())
-l, r, u, d = map(int,input().split())
+l, r, u, d = map(int, input().split())
 
-i, j = (a-l+r, b-u+d) # 좌표로 변수를 생성할 수 있음
-# up은 위이지만, 리스트 번호로 보면 줄어드는 것이므로 -를 씀 
+i, j = (a-l+r, b-u+d)  # 좌표로 변수를 생성할 수 있음
+# up은 위이지만, 리스트 번호로 보면 줄어드는 것이므로 -를 씀
 # print(i,j) => 4,5
-lotation[j-1][i-1]=1 # 이중 리스트는 행, 열 순서임
+lotation[j-1][i-1] = 1  # 이중 리스트는 행, 열 순서임
 
 for k in lotation:
     print(*k)
