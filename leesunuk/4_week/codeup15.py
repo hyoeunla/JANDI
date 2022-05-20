@@ -32,3 +32,11 @@ ps. "내 미래"가 해당 문제 이름입니다. 참고로 전 다녀왔습니
 0 0 0 0 0
 0 0 0 1 0
 '''
+cur = list(map(int, input("처음 위치를 입력해주세요: ").split()))
+lf, rgt, up, down = map(int, input("몇칸을 이동할 것인지 입력해주세요: ").split())
+coords = [[0 for _ in range(5)] for _ in range(5)]
+move = (cur[0] - up + down, cur[1] - lf + rgt)
+coords[move[0] - 1][move[1] - 1] = 1
+
+for crd in coords:
+    print(*crd)
