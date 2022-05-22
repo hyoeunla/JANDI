@@ -37,19 +37,19 @@ h, w = map(int, input().split())
 shape = [[0 for _ in range(w)] for _ in range(h)]
 n = int(input())
 
-for _ in range(n) :
-  l, d, x, y = map(int, input().split())
-  x, y = x-1, y-1
+for _ in range(n):
+    l, d, x, y = map(int, input().split())
+    x, y = x-1, y-1
 
-  if d == 0 :
-    for i in range(l) :
-      shape[x][y+i] = 1
-  else :
-    for i in range(l) :
-      shape[x+i][y] = 1
+    if d == 0:
+        for i in range(l):
+            shape[x][y+i] = 1
+    else:
+        for i in range(l):
+            shape[x+i][y] = 1
 
-for s in shape :
-  print( *s )
+for s in shape:
+    print(*s)
 
 '''
 [99] 성실한 개미
@@ -88,43 +88,23 @@ for s in shape :
 1 0 0 0 0 1 0 0 0 1
 1 0 0 0 0 0 0 0 0 1
 1 1 1 1 1 1 1 1 1 1
-Tip::
-대체 텍스트
-
-문제에서 요구하는 방식대로 출력하기 위해 '*(Asterisk)'를 사용하였다.
-'*(Asterisk)' 배우러가기
-입력 예시 값
-
-ant_house = [
-         [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
-         [1, 0, 0, 1, 0, 0, 0, 0, 0, 1],
-         [1, 0, 0, 1, 1, 1, 0, 0, 0, 1],
-         [1, 0, 0, 0, 0, 0, 0, 1, 0, 1],
-         [1, 0, 0, 0, 0, 0, 0, 1, 0, 1],
-         [1, 0, 0, 0, 0, 1, 0, 1, 0, 1],
-         [1, 0, 0, 0, 0, 1, 2, 1, 0, 1],
-         [1, 0, 0, 0, 0, 1, 0, 0, 0, 1],
-         [1, 0, 0, 0, 0, 0, 0, 0, 0, 1],
-         [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-]
 '''
 ant_house = []
 for i in range(5):
-  matrix = list(map(int, input().split()))
-  ant_house.append(matrix)
+    matrix = list(map(int, input().split()))
+    ant_house.append(matrix)
 
 print('===================')
 
 x, y = 1, 1
 while ant_house[x][y] != 2:
-  if ant_house[x][y] == 0:
-    ant_house[x][y] = 9
-    y += 1
-  else:
-    x += 1
-    y -= 1
+    if ant_house[x][y] == 0:
+        ant_house[x][y] = 9
+        y += 1
+    else:
+        x += 1
+        y -= 1
 ant_house[x][y] = 9
 
-for house in ant_house :
-  print( *house )
-
+for house in ant_house:
+    print(*house)
