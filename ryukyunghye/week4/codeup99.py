@@ -42,9 +42,13 @@
 1 0 0 0 0 1 0 0 0 1
 1 0 0 0 0 0 0 0 0 1
 1 1 1 1 1 1 1 1 1 1'''
+
 house = []
+for i in range(10):
+    matrix = list(map(int, input().split()))
+    house.append(matrix)
+
 x, y = 1, 1
-x, y = 1, 1                 # (2,2)에서 출발하니깐 1씩 빼서 1,1
 while house[x][y] != 2:     # 2를 만나기 전까지 계속 움직임
     if house[x][y] == 0:    # 0을 만나면
         house[x][y] == 9    # 9로 바꾸고
