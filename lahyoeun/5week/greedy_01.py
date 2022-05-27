@@ -16,3 +16,15 @@ for coin in coin_types:
     n %= coin
 
 print(count)
+
+
+charge = 1260
+n = 0
+n = charge // 500
+s = ((charge)-500*n) // 100
+charge = ((charge)-500*n)
+k = (charge - 100*s) // 50
+charge = (charge - 100*s)
+l = (charge - 50*k) // 10
+print(n+s+k+l)
+# 수정한 답
