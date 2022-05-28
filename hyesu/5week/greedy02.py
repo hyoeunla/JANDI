@@ -1,6 +1,6 @@
 # 문제2. 큰 수의 법칙
 
-n, m, k = map(int, input().split())  # n개의 수를 공백으로 구분하여 입력
+n, m, k = map(int, input().split())  # n, m, k를 공백으로 구분하여 입력 받음.
 num = list(map(int, input().split()))
 num.sort()  # 입력받은 수 정렬
 
@@ -10,7 +10,7 @@ second = num[n - 2]  # 두 번째로 큰 수
 result = 0
 
 while True:
-    for i in range(k):  # 가장 큰 수를 k번 더하기
+    for i in range(k):  # k번 반복
         if m == 0:  # m이 0이면 반복문 탈출
             break
         result += first
