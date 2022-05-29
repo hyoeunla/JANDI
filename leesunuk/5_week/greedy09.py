@@ -1,3 +1,4 @@
+# 9.볼링공 고르기
 n, m = map(int, input("볼링공의 개수와 최대 무게를 입력해주세요: ").split())
 k = list(map(int, input("볼링공 각각의 무게를 입력해주세요: ").split()))
 start = 0
