@@ -1,6 +1,3 @@
-from unittest import result
-
-
 n, m = map(int, input().split())
 weight = list(map(int, input().split()))
 
