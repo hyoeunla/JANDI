@@ -3,8 +3,8 @@
 n, m = map(int, input("행의 개수와 열의 개수를 입력해주세요: ").split())
 num = [[]for _ in range(n)]
 for i in range(n):
-    x, y, z = map(int, input("%d행에 들어갈 카드들을 입력해주세요: " % (i+1)).split())
-    card = [x, y, z]
+    card_list = list(map(int, input("%d행에 들어갈 카드들을 입력해주세요: " % (i+1)).split()))
+    card = card_list
     for _ in range(3):
         num[i] = card
         num[i].sort()
