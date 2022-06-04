@@ -1,3 +1,4 @@
+# 첼시를 도와줘!
 n = int(input())
 pick = []
 for i in range(n):
