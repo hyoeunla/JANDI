@@ -1,3 +1,4 @@
+# 생일
 n = int(input(""))
 at_book = []
 
