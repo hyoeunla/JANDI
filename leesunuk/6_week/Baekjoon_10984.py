@@ -1,3 +1,4 @@
+# 내 학점을 구해줘
 all_n = int(input(""))
 
 for i in range(all_n):
