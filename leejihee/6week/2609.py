@@ -1,4 +1,5 @@
 # 2609. 최대공약수와 최소공배수
+import math
 a, b = map(int, input().split())
 
 # 최대공약수
@@ -12,3 +13,8 @@ for i in range(max(a, b), (a*b)+1):  # 둘이 최소공배수가 될 경우 중 
     if i % a == 0 and i % b == 0:  # i에서 나눌 때 둘 다 0이 되어야 최소공배수가 됨
         print(i)
         break
+
+# 함수 사용
+gcd = math.gcd(a, b)
+lcm = math.lcm(a, b)
+print(gcd, lcm)
