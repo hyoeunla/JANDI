@@ -1,5 +1,4 @@
 # 5635. 생일
-
 n = int(input())
 studentList = []
 
