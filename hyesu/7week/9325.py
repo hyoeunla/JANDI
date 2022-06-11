@@ -1,10 +1,10 @@
 # 얼마?
 
-run = int(input())
-for i in range(run):
+n = int(input())
+for i in range(n):
     s = int(input())
-    n = int(input())
-    for j in range(n):
+    c = int(input())
+    for j in range(c):
         q, p = map(int, input().split())
         s += q * p
     print(s)
