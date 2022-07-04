@@ -5,22 +5,19 @@ mv = input().split()
 x, y = 1, 1
 
 for i in mv:
-    if x < 1 and y < 1:
-        continue
-    else:
-        if i == 'R':
+    if i == 'R':
+        if x < n:
             y += 1
-            print(x, y)
-        elif i == 'L':
+    elif i == 'L':
+        if x < 1:
             y -= 1
-            print(x, y)
-        elif i == 'U':
+    elif i == 'U':
+        if x > 1:
             x -= 1
-            print(x, y)
-        elif i == 'D':
+    elif i == 'D':
+        if y < n:
             x += 1
-            print(x, y)
-# 범위 벗어남을 해결하지 못함
+print(x, y)
 
 # 해설
 n = int(input())
