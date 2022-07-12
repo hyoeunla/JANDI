@@ -11,15 +11,15 @@ def delmax(x):
     print(x)
     if len(x) > 1:
         if max(x) == x[-1]:
-            x.remove(x[-1])
-            x.remove(x[a-1])
+            del(x[-1])
+            del(x[a-1])
         elif max(x) == x[0]:
-            x.remove(x[a])
-            x.remove(x[a])
+            del(x[a])
+            del(x[a])
         else:
-            x.remove(x[a])
-            x.remove(x[a])
-            x.remove(x[a-1])
+            del(x[a])
+            del(x[a])
+            del(x[a-1])
 
 
 nn = n / 2
