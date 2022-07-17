@@ -19,3 +19,4 @@ while 1:
         print(n)
     else:
         break
+# 시간 초과 문제로 다시 고민해보는 중
