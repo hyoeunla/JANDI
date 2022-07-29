@@ -2,7 +2,7 @@
 dwarf = []
 for i in range(9):
     dwarf.append(int(input()))
-# 한 줄로 가능: dwarf = [int(input()) for _ in range(n)]
+# 한 줄로 가능: dwarf = [int(input()) for _ in range(9)]
 
 for i in range(8):  # ([0]+[1]) ([0]+[2]) ([0]+[3]) ... ([7]+[8])
     for j in range(i+1, 9):
