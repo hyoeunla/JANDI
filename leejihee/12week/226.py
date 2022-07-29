@@ -10,4 +10,7 @@ for i in k:  # 화폐 종류마다 반복
         if d[j-i] != 10001:  # d[j-i]값이 바뀌었다면
             d[j] = min(d[j], d[j-i]+1)
 
-print(d[m])
+if d[m] == 10001:
+    print(-1)
+else:
+    print(d[m])
