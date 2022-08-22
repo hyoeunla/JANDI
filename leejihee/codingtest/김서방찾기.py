@@ -1,5 +1,3 @@
-
-
 def solution(seoul):
     # seoul = list(input().split())
     for i in range(len(seoul)):
