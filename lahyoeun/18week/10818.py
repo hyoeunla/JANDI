@@ -1,14 +1,10 @@
 c = int(input())
-s = 0
-m = 1000001
-num = map(int, input().split())
-for i in num:
-    if s <= i:
-        s = i
-    else:
-        s = s
-    if m >= i:
+num = list(map(int, input().split()))
+m = num[0]
+n = num[0]
+for i in num[1:]:
+    if i > m:
         m = i
-    else:
-        m = m
-print(m, s)
+    elif i < n:
+        n = i
+print(n, m)
